@@ -1,0 +1,36 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    aws-eventstream (1.2.0)
+    aws-partitions (1.710.0)
+    aws-sdk-core (3.170.0)
+      aws-eventstream (~> 1, >= 1.0.2)
+      aws-partitions (~> 1, >= 1.651.0)
+      aws-sigv4 (~> 1.5)
+      jmespath (~> 1, >= 1.6.1)
+    aws-sdk-ec2 (1.365.0)
+      aws-sdk-core (~> 3, >= 3.165.0)
+      aws-sigv4 (~> 1.1)
+    aws-sigv4 (1.5.2)
+      aws-eventstream (~> 1, >= 1.0.2)
+    bootsnap (1.16.0)
+      msgpack (~> 1.2)
+    jmespath (1.6.2)
+    msgpack (1.6.0)
+    nokogiri (1.14.1-aarch64-linux)
+      racc (~> 1.4)
+    nokogiri (1.14.1-arm64-darwin)
+      racc (~> 1.4)
+    racc (1.6.2)
+
+PLATFORMS
+  aarch64-linux
+  arm64-darwin-22
+
+DEPENDENCIES
+  aws-sdk-ec2
+  bootsnap
+  nokogiri
+
+BUNDLED WITH
+   2.4.6
