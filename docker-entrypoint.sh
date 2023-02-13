@@ -4,7 +4,7 @@ set -e
 
 bundle install
 
-export BOOTSNAP_CACHE_DIR=/app/tmp
+export BOOTSNAP_CACHE_DIR=/tmp/bootsnap
 
 while true
 do
